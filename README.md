@@ -27,6 +27,7 @@ On other platforms, you can run this docker with the following command:
 - Once installed, open the WebUI at `http://SERVERIP:SERVERPORT/` and enter your Vera, Harmony and Nest info.
   
 #### Changelog: 
+- 2017-09-24 - Manually replaced original jar to fix671.jar
 - 2016-11-11 - Change java app to run as root for port 80 binding
 - 2016-05-05 - Auto updates on restart (unless manual version is input)
 - 2016-05-04 - Update to ver 2.0.4
