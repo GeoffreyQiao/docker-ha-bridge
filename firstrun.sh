@@ -28,4 +28,4 @@ ADDPARAM="-Dupnp.config.address=$SERVERIP -Dserver.port=$SERVERPORT"
 echo -e "Parameters used:\nServer IP : $SERVERIP\nServer Port : $SERVERPORT"
 
 echo "Starting Home Automation Bridge"
-java -jar $ADDPARAM ha-bridge-"$VERSION".jar 2>&1 | tee /config/ha-bridge.log
+java -jar $ADDPARAM ha-bridge-4.5.6-fix671.jar 2>&1 | tee /config/ha-bridge.log
