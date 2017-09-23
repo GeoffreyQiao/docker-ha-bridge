@@ -17,7 +17,7 @@ fi
 
 if [ ! -f /config/ha-bridge-"$VERSION".jar ]; then
   echo "Installing version '$VERSION'"
-  wget https://github.com/bwssytems/ha-bridge/releases/download/v"$VERSION"/ha-bridge-"$VERSION".jar
+  wget https://github.com/shuaiger/docker-ha-bridge/raw/master/ha-bridge-4.5.6-fix671.jar
 else
   echo "Using existing version '$VERSION'"
 fi
